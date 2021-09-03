@@ -1,0 +1,22 @@
+#!/bin/sh
+alias p="sudo pacman"
+alias yt="youtube-dl --add-metadata -ic" # Download video link
+alias yta="yt -x -f bestaudio/best"      # Download only audio
+alias v="$EDITOR"
+alias rm="rm -i"
+
+alias g="git"
+alias ga="git add"
+alias gc="git commit"
+alias gp="git push"
+alias gs="git status"
+alias gg="git clone"
+alias gd="git diff"
+alias ls="ls --color=auto"
+alias config="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+
+es() {
+	$EDITOR "$(which "$1")"
+}
+
+alias c="cargo"
