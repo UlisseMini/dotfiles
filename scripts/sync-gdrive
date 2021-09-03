@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# sync ~/books to /books on encrypted folder in gdrive
+rclone sync -P -v ~/books secret:books
+

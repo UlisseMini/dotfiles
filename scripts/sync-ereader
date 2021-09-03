@@ -1,0 +1,23 @@
+#!/bin/sh
+set -e
+
+mount_ereader() {
+  sudo sh -c 'mkdir -p /mnt/ereader && mount /dev/sda /mnt/ereader'
+}
+
+
+if ! mountpoint -q /mnt/ereader; then
+  mount_ereader
+
+  if ! [ -d /mnt/ereader/books ]; then
+    echo "'books' folder not found at /mnt/ereader/books, is /dev/sda not the ereader?"
+    exit 1
+  fi
+fi
+
+# sync ~/books -> /mnt/ereader/books (the --exclude '.*' is no longer needed, but I leave it for safety)
+sudo rsync -P -rltD --delete --exclude scripts --exclude ".*" --exclude "Digital Editions" ~/books /mnt/ereader
+
+sudo umount /mnt/ereader
+sudo eject /dev/sda
+
