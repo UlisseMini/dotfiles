@@ -11,7 +11,6 @@ export GOPATH="$HOME/go"
 export CGO_ENABLED=0
 
 export PATH="$PATH:$HOME/go/bin"
-export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.yarn/bin:$PATH"
 export PATH="$PATH:$HOME/.local/bin/"
 export PATH="$PATH:$HOME/scripts"
@@ -20,6 +19,8 @@ export PATH="$PATH:$HOME/anaconda3/bin"
 export PATH="$PATH:$HOME/.luarocks/bin"
 export PATH="$HOME/.elan/bin:$PATH" # lean prover
 
+if [ -f .cargo/env ]; then . "$HOME/.cargo/env"; fi
+
 # swap caps and escape
 setxkbmap -option caps:escape >/dev/null 2>&1
 
@@ -27,4 +28,8 @@ setxkbmap -option caps:escape >/dev/null 2>&1
 export GTK_IM_MODULE=ibus
 export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
+
+if [ "$HOSTNAME" = mbp ]; then
+  export GDK_DPI_SCALE=0.5
+fi
 
