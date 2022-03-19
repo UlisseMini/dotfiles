@@ -60,6 +60,7 @@
       <property name="&lt;Super&gt;j" type="string" value="xfce4-terminal -e journal"/>
       <property name="&lt;Super&gt;b" type="string" value="xfce4-terminal -e book"/>
       <property name="&lt;Super&gt;u" type="string" value="unicode-math"/>
+      <property name="&lt;Shift&gt;&lt;Super&gt;a" type="string" value="peek"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
