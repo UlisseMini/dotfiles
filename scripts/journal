@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+
+fname="$(date --iso)".md
+outpath="$HOME/uli.rocks/content/journal/$fname"
+
+cp ~/uli.rocks/templates/journal-entry.md "$outpath"
+
+marktext "$outpath"
