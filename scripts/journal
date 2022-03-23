@@ -1,9 +1,9 @@
 #!/bin/sh
 set -e
 
-fname="$(date --iso)".md
-outpath="$HOME/uli.rocks/content/journal/$fname"
+outdir="$HOME/uli.rocks/content/journal/$(date --iso)"
+mkdir -p "$outdir"
 
-cp ~/uli.rocks/templates/journal-entry.md "$outpath"
+cp ~/uli.rocks/templates/journal-entry.md "$outdir/index.md"
 
-marktext "$outpath"
+marktext "$outdir/index.md"
