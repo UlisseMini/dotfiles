@@ -4,6 +4,5 @@ set -e
 outdir="$HOME/uli.rocks/content/journal/$(date --iso)"
 mkdir -p "$outdir"
 
-cp ~/uli.rocks/templates/journal-entry.md "$outdir/index.md"
-
-marktext "$outdir/index.md"
+cd "$outdir"
+xfce4-terminal -e "nvim '$outdir/index.md'"
