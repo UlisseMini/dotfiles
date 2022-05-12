@@ -2,4 +2,4 @@
 set -e
 
 cd ~/books
-find . -type f | fzf | xargs -r -I{} zathura --fork '{}'
+find . -type f | fzf --print0 | xargs -r -0 zathura --fork
