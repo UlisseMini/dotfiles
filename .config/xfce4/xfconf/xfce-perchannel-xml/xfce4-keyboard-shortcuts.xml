@@ -61,158 +61,158 @@
       <property name="&lt;Super&gt;b" type="string" value="xfce4-terminal -e book"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;a" type="string" value="peek"/>
       <property name="&lt;Super&gt;u" type="string" value="xfce4-terminal -e /home/uli/uli.rocks/tmux"/>
-      <property name="&lt;Super&gt;t" type="string" value="xfce4-terminal -e &apos;nvim /home/uli/Sync/todo.md&apos;"/>
+      <property name="&lt;super&gt;t" type="string" value="xfce4-terminal -e &apos;nvim /home/uli/sync/todo.md&apos;"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
     <property name="default" type="empty">
-      <property name="&lt;Alt&gt;Insert" type="empty"/>
-      <property name="Escape" type="empty"/>
-      <property name="Left" type="empty"/>
-      <property name="Right" type="empty"/>
-      <property name="Up" type="empty"/>
-      <property name="Down" type="empty"/>
-      <property name="&lt;Alt&gt;Tab" type="empty"/>
-      <property name="&lt;Alt&gt;&lt;Shift&gt;Tab" type="empty"/>
-      <property name="&lt;Alt&gt;Delete" type="empty"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;Down" type="empty"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;Left" type="empty"/>
-      <property name="&lt;Shift&gt;&lt;Alt&gt;Page_Down" type="empty"/>
-      <property name="&lt;Alt&gt;F4" type="empty"/>
-      <property name="&lt;Alt&gt;F6" type="empty"/>
-      <property name="&lt;Alt&gt;F7" type="empty"/>
-      <property name="&lt;Alt&gt;F8" type="empty"/>
-      <property name="&lt;Alt&gt;F9" type="empty"/>
-      <property name="&lt;Alt&gt;F10" type="empty"/>
-      <property name="&lt;Alt&gt;F11" type="empty"/>
-      <property name="&lt;Alt&gt;F12" type="empty"/>
-      <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;Left" type="empty"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;End" type="empty"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;Home" type="empty"/>
-      <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;Right" type="empty"/>
-      <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;Up" type="empty"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;KP_1" type="empty"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;KP_2" type="empty"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;KP_3" type="empty"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;KP_4" type="empty"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;KP_5" type="empty"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;KP_6" type="empty"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;KP_7" type="empty"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;KP_8" type="empty"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;KP_9" type="empty"/>
-      <property name="&lt;Alt&gt;space" type="empty"/>
-      <property name="&lt;Shift&gt;&lt;Alt&gt;Page_Up" type="empty"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;Right" type="empty"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;d" type="empty"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;Up" type="empty"/>
-      <property name="&lt;Super&gt;Tab" type="empty"/>
-      <property name="&lt;Primary&gt;F1" type="empty"/>
-      <property name="&lt;Primary&gt;F2" type="empty"/>
-      <property name="&lt;Primary&gt;F3" type="empty"/>
-      <property name="&lt;Primary&gt;F4" type="empty"/>
-      <property name="&lt;Primary&gt;F5" type="empty"/>
-      <property name="&lt;Primary&gt;F6" type="empty"/>
-      <property name="&lt;Primary&gt;F7" type="empty"/>
-      <property name="&lt;Primary&gt;F8" type="empty"/>
-      <property name="&lt;Primary&gt;F9" type="empty"/>
-      <property name="&lt;Primary&gt;F10" type="empty"/>
-      <property name="&lt;Primary&gt;F11" type="empty"/>
-      <property name="&lt;Primary&gt;F12" type="empty"/>
-      <property name="&lt;Super&gt;KP_Left" type="empty"/>
-      <property name="&lt;Super&gt;KP_Right" type="empty"/>
-      <property name="&lt;Super&gt;KP_Up" type="empty"/>
-      <property name="&lt;Super&gt;KP_Down" type="empty"/>
-      <property name="&lt;Super&gt;KP_Page_Up" type="empty"/>
-      <property name="&lt;Super&gt;KP_Home" type="empty"/>
-      <property name="&lt;Super&gt;KP_End" type="empty"/>
-      <property name="&lt;Super&gt;KP_Next" type="empty"/>
-      <property name="&lt;Control&gt;&lt;Alt&gt;Down" type="empty"/>
-      <property name="&lt;Control&gt;&lt;Alt&gt;Left" type="empty"/>
-      <property name="&lt;Control&gt;&lt;Shift&gt;&lt;Alt&gt;Left" type="empty"/>
-      <property name="&lt;Alt&gt;&lt;Control&gt;End" type="empty"/>
-      <property name="&lt;Alt&gt;&lt;Control&gt;Home" type="empty"/>
-      <property name="&lt;Control&gt;&lt;Shift&gt;&lt;Alt&gt;Right" type="empty"/>
-      <property name="&lt;Control&gt;&lt;Shift&gt;&lt;Alt&gt;Up" type="empty"/>
-      <property name="&lt;Alt&gt;&lt;Control&gt;KP_1" type="empty"/>
-      <property name="&lt;Alt&gt;&lt;Control&gt;KP_2" type="empty"/>
-      <property name="&lt;Alt&gt;&lt;Control&gt;KP_3" type="empty"/>
-      <property name="&lt;Alt&gt;&lt;Control&gt;KP_4" type="empty"/>
-      <property name="&lt;Alt&gt;&lt;Control&gt;KP_5" type="empty"/>
-      <property name="&lt;Alt&gt;&lt;Control&gt;KP_6" type="empty"/>
-      <property name="&lt;Alt&gt;&lt;Control&gt;KP_7" type="empty"/>
-      <property name="&lt;Alt&gt;&lt;Control&gt;KP_8" type="empty"/>
-      <property name="&lt;Alt&gt;&lt;Control&gt;KP_9" type="empty"/>
-      <property name="&lt;Control&gt;&lt;Alt&gt;Right" type="empty"/>
-      <property name="&lt;Control&gt;&lt;Alt&gt;d" type="empty"/>
-      <property name="&lt;Control&gt;&lt;Alt&gt;Up" type="empty"/>
-      <property name="&lt;Control&gt;F1" type="empty"/>
-      <property name="&lt;Control&gt;F2" type="empty"/>
-      <property name="&lt;Control&gt;F3" type="empty"/>
-      <property name="&lt;Control&gt;F4" type="empty"/>
-      <property name="&lt;Control&gt;F5" type="empty"/>
-      <property name="&lt;Control&gt;F6" type="empty"/>
-      <property name="&lt;Control&gt;F7" type="empty"/>
-      <property name="&lt;Control&gt;F8" type="empty"/>
-      <property name="&lt;Control&gt;F9" type="empty"/>
-      <property name="&lt;Control&gt;F10" type="empty"/>
-      <property name="&lt;Control&gt;F11" type="empty"/>
-      <property name="&lt;Control&gt;F12" type="empty"/>
-      <property name="&lt;Shift&gt;&lt;Control&gt;&lt;Alt&gt;Up" type="string" value="move_window_up_workspace_key"/>
-      <property name="&lt;Shift&gt;&lt;Control&gt;&lt;Alt&gt;Down" type="string" value="move_window_down_workspace_key"/>
-      <property name="&lt;Shift&gt;&lt;Control&gt;&lt;Alt&gt;Left" type="string" value="move_window_left_workspace_key"/>
-      <property name="&lt;Shift&gt;&lt;Control&gt;&lt;Alt&gt;Right" type="string" value="move_window_right_workspace_key"/>
+      <property name="&lt;alt&gt;insert" type="empty"/>
+      <property name="escape" type="empty"/>
+      <property name="left" type="empty"/>
+      <property name="right" type="empty"/>
+      <property name="up" type="empty"/>
+      <property name="down" type="empty"/>
+      <property name="&lt;alt&gt;tab" type="empty"/>
+      <property name="&lt;alt&gt;&lt;shift&gt;tab" type="empty"/>
+      <property name="&lt;alt&gt;delete" type="empty"/>
+      <property name="&lt;primary&gt;&lt;alt&gt;down" type="empty"/>
+      <property name="&lt;primary&gt;&lt;alt&gt;left" type="empty"/>
+      <property name="&lt;shift&gt;&lt;alt&gt;page_down" type="empty"/>
+      <property name="&lt;alt&gt;f4" type="empty"/>
+      <property name="&lt;alt&gt;f6" type="empty"/>
+      <property name="&lt;alt&gt;f7" type="empty"/>
+      <property name="&lt;alt&gt;f8" type="empty"/>
+      <property name="&lt;alt&gt;f9" type="empty"/>
+      <property name="&lt;alt&gt;f10" type="empty"/>
+      <property name="&lt;alt&gt;f11" type="empty"/>
+      <property name="&lt;alt&gt;f12" type="empty"/>
+      <property name="&lt;primary&gt;&lt;shift&gt;&lt;alt&gt;left" type="empty"/>
+      <property name="&lt;primary&gt;&lt;alt&gt;end" type="empty"/>
+      <property name="&lt;primary&gt;&lt;alt&gt;home" type="empty"/>
+      <property name="&lt;primary&gt;&lt;shift&gt;&lt;alt&gt;right" type="empty"/>
+      <property name="&lt;primary&gt;&lt;shift&gt;&lt;alt&gt;up" type="empty"/>
+      <property name="&lt;primary&gt;&lt;alt&gt;kp_1" type="empty"/>
+      <property name="&lt;primary&gt;&lt;alt&gt;kp_2" type="empty"/>
+      <property name="&lt;primary&gt;&lt;alt&gt;kp_3" type="empty"/>
+      <property name="&lt;primary&gt;&lt;alt&gt;kp_4" type="empty"/>
+      <property name="&lt;primary&gt;&lt;alt&gt;kp_5" type="empty"/>
+      <property name="&lt;primary&gt;&lt;alt&gt;kp_6" type="empty"/>
+      <property name="&lt;primary&gt;&lt;alt&gt;kp_7" type="empty"/>
+      <property name="&lt;primary&gt;&lt;alt&gt;kp_8" type="empty"/>
+      <property name="&lt;primary&gt;&lt;alt&gt;kp_9" type="empty"/>
+      <property name="&lt;alt&gt;space" type="empty"/>
+      <property name="&lt;shift&gt;&lt;alt&gt;page_up" type="empty"/>
+      <property name="&lt;primary&gt;&lt;alt&gt;right" type="empty"/>
+      <property name="&lt;primary&gt;&lt;alt&gt;d" type="empty"/>
+      <property name="&lt;primary&gt;&lt;alt&gt;up" type="empty"/>
+      <property name="&lt;super&gt;tab" type="empty"/>
+      <property name="&lt;primary&gt;f1" type="empty"/>
+      <property name="&lt;primary&gt;f2" type="empty"/>
+      <property name="&lt;primary&gt;f3" type="empty"/>
+      <property name="&lt;primary&gt;f4" type="empty"/>
+      <property name="&lt;primary&gt;f5" type="empty"/>
+      <property name="&lt;primary&gt;f6" type="empty"/>
+      <property name="&lt;primary&gt;f7" type="empty"/>
+      <property name="&lt;primary&gt;f8" type="empty"/>
+      <property name="&lt;primary&gt;f9" type="empty"/>
+      <property name="&lt;primary&gt;f10" type="empty"/>
+      <property name="&lt;primary&gt;f11" type="empty"/>
+      <property name="&lt;primary&gt;f12" type="empty"/>
+      <property name="&lt;super&gt;kp_left" type="empty"/>
+      <property name="&lt;super&gt;kp_right" type="empty"/>
+      <property name="&lt;super&gt;kp_up" type="empty"/>
+      <property name="&lt;super&gt;kp_down" type="empty"/>
+      <property name="&lt;super&gt;kp_page_up" type="empty"/>
+      <property name="&lt;super&gt;kp_home" type="empty"/>
+      <property name="&lt;super&gt;kp_end" type="empty"/>
+      <property name="&lt;super&gt;kp_next" type="empty"/>
+      <property name="&lt;control&gt;&lt;alt&gt;down" type="empty"/>
+      <property name="&lt;control&gt;&lt;alt&gt;left" type="empty"/>
+      <property name="&lt;control&gt;&lt;shift&gt;&lt;alt&gt;left" type="empty"/>
+      <property name="&lt;alt&gt;&lt;control&gt;end" type="empty"/>
+      <property name="&lt;alt&gt;&lt;control&gt;home" type="empty"/>
+      <property name="&lt;control&gt;&lt;shift&gt;&lt;alt&gt;right" type="empty"/>
+      <property name="&lt;control&gt;&lt;shift&gt;&lt;alt&gt;up" type="empty"/>
+      <property name="&lt;alt&gt;&lt;control&gt;kp_1" type="empty"/>
+      <property name="&lt;alt&gt;&lt;control&gt;kp_2" type="empty"/>
+      <property name="&lt;alt&gt;&lt;control&gt;kp_3" type="empty"/>
+      <property name="&lt;alt&gt;&lt;control&gt;kp_4" type="empty"/>
+      <property name="&lt;alt&gt;&lt;control&gt;kp_5" type="empty"/>
+      <property name="&lt;alt&gt;&lt;control&gt;kp_6" type="empty"/>
+      <property name="&lt;alt&gt;&lt;control&gt;kp_7" type="empty"/>
+      <property name="&lt;alt&gt;&lt;control&gt;kp_8" type="empty"/>
+      <property name="&lt;alt&gt;&lt;control&gt;kp_9" type="empty"/>
+      <property name="&lt;control&gt;&lt;alt&gt;right" type="empty"/>
+      <property name="&lt;control&gt;&lt;alt&gt;d" type="empty"/>
+      <property name="&lt;control&gt;&lt;alt&gt;up" type="empty"/>
+      <property name="&lt;control&gt;f1" type="empty"/>
+      <property name="&lt;control&gt;f2" type="empty"/>
+      <property name="&lt;control&gt;f3" type="empty"/>
+      <property name="&lt;control&gt;f4" type="empty"/>
+      <property name="&lt;control&gt;f5" type="empty"/>
+      <property name="&lt;control&gt;f6" type="empty"/>
+      <property name="&lt;control&gt;f7" type="empty"/>
+      <property name="&lt;control&gt;f8" type="empty"/>
+      <property name="&lt;control&gt;f9" type="empty"/>
+      <property name="&lt;control&gt;f10" type="empty"/>
+      <property name="&lt;control&gt;f11" type="empty"/>
+      <property name="&lt;control&gt;f12" type="empty"/>
+      <property name="&lt;shift&gt;&lt;control&gt;&lt;alt&gt;up" type="string" value="move_window_up_workspace_key"/>
+      <property name="&lt;shift&gt;&lt;control&gt;&lt;alt&gt;down" type="string" value="move_window_down_workspace_key"/>
+      <property name="&lt;shift&gt;&lt;control&gt;&lt;alt&gt;left" type="string" value="move_window_left_workspace_key"/>
+      <property name="&lt;shift&gt;&lt;control&gt;&lt;alt&gt;right" type="string" value="move_window_right_workspace_key"/>
     </property>
     <property name="custom" type="empty">
-      <property name="&lt;Control&gt;F8" type="string" value="workspace_8_key"/>
-      <property name="&lt;Control&gt;F10" type="string" value="workspace_10_key"/>
-      <property name="&lt;Control&gt;F11" type="string" value="workspace_11_key"/>
-      <property name="&lt;Control&gt;F12" type="string" value="workspace_12_key"/>
-      <property name="&lt;Control&gt;F9" type="string" value="workspace_9_key"/>
-      <property name="&lt;Alt&gt;F12" type="string" value="above_key"/>
-      <property name="&lt;Control&gt;&lt;Alt&gt;Up" type="string" value="up_workspace_key"/>
-      <property name="Escape" type="string" value="cancel_key"/>
-      <property name="&lt;Alt&gt;&lt;Shift&gt;Tab" type="string" value="cycle_reverse_windows_key"/>
-      <property name="&lt;Alt&gt;space" type="string" value="popup_menu_key"/>
-      <property name="&lt;Alt&gt;Delete" type="string" value="del_workspace_key"/>
-      <property name="&lt;Shift&gt;&lt;Alt&gt;Page_Down" type="string" value="lower_window_key"/>
-      <property name="&lt;Alt&gt;F6" type="string" value="stick_window_key"/>
-      <property name="&lt;Alt&gt;F8" type="string" value="resize_window_key"/>
-      <property name="&lt;Alt&gt;F9" type="string" value="hide_window_key"/>
-      <property name="&lt;Alt&gt;F7" type="string" value="move_window_key"/>
-      <property name="&lt;Control&gt;&lt;Shift&gt;&lt;Alt&gt;Up" type="string" value="move_window_up_key"/>
-      <property name="&lt;Control&gt;&lt;Alt&gt;Left" type="string" value="left_workspace_key"/>
-      <property name="&lt;Control&gt;&lt;Alt&gt;Down" type="string" value="down_workspace_key"/>
-      <property name="&lt;Control&gt;&lt;Shift&gt;&lt;Alt&gt;Left" type="string" value="move_window_left_key"/>
-      <property name="Left" type="string" value="left_key"/>
-      <property name="Down" type="string" value="down_key"/>
-      <property name="&lt;Alt&gt;&lt;Control&gt;Home" type="string" value="move_window_prev_workspace_key"/>
-      <property name="&lt;Alt&gt;&lt;Control&gt;End" type="string" value="move_window_next_workspace_key"/>
-      <property name="&lt;Control&gt;&lt;Alt&gt;Right" type="string" value="right_workspace_key"/>
-      <property name="&lt;Control&gt;&lt;Shift&gt;&lt;Alt&gt;Right" type="string" value="move_window_right_key"/>
-      <property name="Right" type="string" value="right_key"/>
-      <property name="&lt;Alt&gt;Tab" type="string" value="cycle_windows_key"/>
-      <property name="&lt;Super&gt;Tab" type="string" value="switch_window_key"/>
-      <property name="&lt;Shift&gt;&lt;Alt&gt;Page_Up" type="string" value="raise_window_key"/>
-      <property name="Up" type="string" value="up_key"/>
-      <property name="&lt;Control&gt;&lt;Alt&gt;d" type="string" value="show_desktop_key"/>
-      <property name="&lt;Alt&gt;Insert" type="string" value="add_workspace_key"/>
-      <property name="&lt;Shift&gt;&lt;Control&gt;&lt;Alt&gt;Up" type="string" value="move_window_up_workspace_key"/>
-      <property name="&lt;Shift&gt;&lt;Control&gt;&lt;Alt&gt;Down" type="string" value="move_window_down_workspace_key"/>
-      <property name="&lt;Shift&gt;&lt;Control&gt;&lt;Alt&gt;Left" type="string" value="move_window_left_workspace_key"/>
-      <property name="&lt;Shift&gt;&lt;Control&gt;&lt;Alt&gt;Right" type="string" value="move_window_right_workspace_key"/>
+      <property name="&lt;control&gt;f8" type="string" value="workspace_8_key"/>
+      <property name="&lt;control&gt;f10" type="string" value="workspace_10_key"/>
+      <property name="&lt;control&gt;f11" type="string" value="workspace_11_key"/>
+      <property name="&lt;control&gt;f12" type="string" value="workspace_12_key"/>
+      <property name="&lt;control&gt;f9" type="string" value="workspace_9_key"/>
+      <property name="&lt;alt&gt;f12" type="string" value="above_key"/>
+      <property name="&lt;control&gt;&lt;alt&gt;up" type="string" value="up_workspace_key"/>
+      <property name="escape" type="string" value="cancel_key"/>
+      <property name="&lt;alt&gt;&lt;shift&gt;tab" type="string" value="cycle_reverse_windows_key"/>
+      <property name="&lt;alt&gt;space" type="string" value="popup_menu_key"/>
+      <property name="&lt;alt&gt;delete" type="string" value="del_workspace_key"/>
+      <property name="&lt;shift&gt;&lt;alt&gt;page_down" type="string" value="lower_window_key"/>
+      <property name="&lt;alt&gt;f6" type="string" value="stick_window_key"/>
+      <property name="&lt;alt&gt;f8" type="string" value="resize_window_key"/>
+      <property name="&lt;alt&gt;f9" type="string" value="hide_window_key"/>
+      <property name="&lt;alt&gt;f7" type="string" value="move_window_key"/>
+      <property name="&lt;control&gt;&lt;shift&gt;&lt;alt&gt;up" type="string" value="move_window_up_key"/>
+      <property name="&lt;control&gt;&lt;alt&gt;left" type="string" value="left_workspace_key"/>
+      <property name="&lt;control&gt;&lt;alt&gt;down" type="string" value="down_workspace_key"/>
+      <property name="&lt;control&gt;&lt;shift&gt;&lt;alt&gt;left" type="string" value="move_window_left_key"/>
+      <property name="left" type="string" value="left_key"/>
+      <property name="down" type="string" value="down_key"/>
+      <property name="&lt;alt&gt;&lt;control&gt;home" type="string" value="move_window_prev_workspace_key"/>
+      <property name="&lt;alt&gt;&lt;control&gt;end" type="string" value="move_window_next_workspace_key"/>
+      <property name="&lt;control&gt;&lt;alt&gt;right" type="string" value="right_workspace_key"/>
+      <property name="&lt;control&gt;&lt;shift&gt;&lt;alt&gt;right" type="string" value="move_window_right_key"/>
+      <property name="right" type="string" value="right_key"/>
+      <property name="&lt;alt&gt;tab" type="string" value="cycle_windows_key"/>
+      <property name="&lt;super&gt;tab" type="string" value="switch_window_key"/>
+      <property name="&lt;shift&gt;&lt;alt&gt;page_up" type="string" value="raise_window_key"/>
+      <property name="up" type="string" value="up_key"/>
+      <property name="&lt;control&gt;&lt;alt&gt;d" type="string" value="show_desktop_key"/>
+      <property name="&lt;alt&gt;insert" type="string" value="add_workspace_key"/>
+      <property name="&lt;shift&gt;&lt;control&gt;&lt;alt&gt;up" type="string" value="move_window_up_workspace_key"/>
+      <property name="&lt;shift&gt;&lt;control&gt;&lt;alt&gt;down" type="string" value="move_window_down_workspace_key"/>
+      <property name="&lt;shift&gt;&lt;control&gt;&lt;alt&gt;left" type="string" value="move_window_left_workspace_key"/>
+      <property name="&lt;shift&gt;&lt;control&gt;&lt;alt&gt;right" type="string" value="move_window_right_workspace_key"/>
       <property name="override" type="bool" value="true"/>
-      <property name="&lt;Super&gt;Up" type="string" value="tile_up_key"/>
-      <property name="&lt;Super&gt;Down" type="string" value="tile_down_key"/>
-      <property name="&lt;Super&gt;Left" type="string" value="tile_left_key"/>
-      <property name="&lt;Super&gt;Right" type="string" value="tile_right_key"/>
-      <property name="&lt;Super&gt;m" type="string" value="maximize_window_key"/>
-      <property name="&lt;Super&gt;1" type="string" value="workspace_1_key"/>
-      <property name="&lt;Super&gt;2" type="string" value="workspace_2_key"/>
-      <property name="&lt;Super&gt;3" type="string" value="workspace_3_key"/>
-      <property name="&lt;Super&gt;4" type="string" value="workspace_4_key"/>
-      <property name="&lt;Super&gt;5" type="string" value="workspace_5_key"/>
-      <property name="&lt;Super&gt;6" type="string" value="workspace_6_key"/>
-      <property name="&lt;Super&gt;7" type="string" value="workspace_7_key"/>
+      <property name="&lt;super&gt;up" type="string" value="tile_up_key"/>
+      <property name="&lt;super&gt;down" type="string" value="tile_down_key"/>
+      <property name="&lt;super&gt;left" type="string" value="tile_left_key"/>
+      <property name="&lt;super&gt;right" type="string" value="tile_right_key"/>
+      <property name="&lt;super&gt;m" type="string" value="maximize_window_key"/>
+      <property name="&lt;super&gt;1" type="string" value="workspace_1_key"/>
+      <property name="&lt;super&gt;2" type="string" value="workspace_2_key"/>
+      <property name="&lt;super&gt;3" type="string" value="workspace_3_key"/>
+      <property name="&lt;super&gt;4" type="string" value="workspace_4_key"/>
+      <property name="&lt;super&gt;5" type="string" value="workspace_5_key"/>
+      <property name="&lt;super&gt;6" type="string" value="workspace_6_key"/>
+      <property name="&lt;super&gt;7" type="string" value="workspace_7_key"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;exclam" type="string" value="move_window_workspace_1_key"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;at" type="string" value="move_window_workspace_2_key"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;numbersign" type="string" value="move_window_workspace_3_key"/>

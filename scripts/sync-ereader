@@ -1,8 +1,10 @@
 #!/bin/sh
 set -e
 
+device="/dev/sdc"
+
 mount_ereader() {
-  sudo sh -c 'mkdir -p /mnt/ereader && mount /dev/sda /mnt/ereader'
+  sudo sh -c "mkdir -p /mnt/ereader && mount $device /mnt/ereader"
 }
 
 
@@ -10,7 +12,7 @@ if ! mountpoint -q /mnt/ereader; then
   mount_ereader
 
   if ! [ -d /mnt/ereader/books ]; then
-    echo "'books' folder not found at /mnt/ereader/books, is /dev/sda not the ereader?"
+    echo "'books' folder not found at /mnt/ereader/books, is $device not the ereader?"
     exit 1
   fi
 fi
@@ -19,5 +21,5 @@ fi
 sudo rsync -P -rltD --delete --exclude scripts --exclude ".*" --exclude "Digital Editions" ~/books /mnt/ereader
 
 sudo umount /mnt/ereader
-sudo eject /dev/sda
+sudo eject $device
 
