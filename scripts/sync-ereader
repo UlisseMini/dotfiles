@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-device="/dev/sdc"
+device="/dev/sda"
 
 mount_ereader() {
   sudo sh -c "mkdir -p /mnt/ereader && mount $device /mnt/ereader"
