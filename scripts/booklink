@@ -1,4 +1,4 @@
 #!/bin/sh
 
-md5sum "$HOME/books/$(cd ~/books; find . -type f | fzf)" | awk '{print "http://library.lol/main/" $1}' 
+md5sum "$HOME/books/$(cd ~/books; find . -type f | fzf)" | awk '{print "http://library.lol/main/" $1}' | xclip -selection clipboard
 
