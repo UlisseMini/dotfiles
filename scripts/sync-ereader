@@ -1,15 +1,8 @@
 #!/bin/sh
 set -e
 
-device="/dev/sda"
-
-mount_ereader() {
-  sudo sh -c "mkdir -p /mnt/ereader && mount $device /mnt/ereader"
-}
-
-
 if ! mountpoint -q /mnt/ereader; then
-  mount_ereader
+  mount-ereader
 
   if ! [ -d /mnt/ereader/books ]; then
     echo "'books' folder not found at /mnt/ereader/books, is $device not the ereader?"
@@ -18,8 +11,16 @@ if ! mountpoint -q /mnt/ereader; then
 fi
 
 # sync ~/books -> /mnt/ereader/books (the --exclude '.*' is no longer needed, but I leave it for safety)
-sudo rsync -P -rltD --delete --exclude scripts --exclude ".*" --exclude "Digital Editions" ~/books /mnt/ereader
+# TODO: only update needed (rsync still has to check stuff. store an index?)
+if [ "$1" = "all" ]; then
+  sudo rsync -P -rltD --delete --exclude scripts --exclude ".*" --exclude "Digital Editions" ~/books /mnt/ereader
+else
+  # only recent; last 24 hrs
+  cd ~/books
+  find . -type f -mtime -1 -print0 | sudo rsync -iv --files-from - --from0 . /mnt/ereader/books
+fi
 
-sudo umount /mnt/ereader
-sudo eject $device
+# sudo umount /mnt/ereader
+# sudo eject /dev/disk/by-label/KOBOeReader
+
 

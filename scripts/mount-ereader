@@ -1,0 +1,6 @@
+#!/bin/sh
+
+if ! mount | grep ereader >/dev/null; then
+  sudo mkdir -p /mnt/ereader
+  sudo mount /dev/disk/by-label/KOBOeReader /mnt/ereader
+fi

@@ -1,0 +1,7 @@
+#!/bin/sh
+set -e
+
+mount-ereader
+
+cd ~/books
+find . -type f | fzf --print0 | xargs -0 -rI{} sudo cp -v "$HOME/books/{}" "/mnt/ereader/books/{}"
