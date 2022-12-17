@@ -1,0 +1,34 @@
+#!/bin/sh
+
+# few shot prompting gpt3 for linux command help
+
+PROMPT=$(cat <<EOF
+Use tar to archive ./files
+$ tar cvf files.tar files
+
+Find all files larger then 100mb
+$ find . -type f -mtime -1
+
+Disk space used by home directory
+$ du ~ -h -d 1
+
+Count files in home directory
+$ ls ~ | wc -l
+
+Delete the models subdirectory
+$ rm -rf ./models
+
+Select a book in ~/books using fzf and print the md5sum of it.
+$ md5sum "\$HOME/books/\$(cd ~/books; find . -type f | fzf)"
+
+$1
+$
+EOF
+)
+
+cmd="$(openai api engines.generate -i text-davinci-003 -c "$PROMPT" -l 100 | tail -1 | sed -e 's/^..//')"
+
+echo "$cmd"
+yesno 'Run?' && $cmd
+
+
