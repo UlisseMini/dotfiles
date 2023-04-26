@@ -64,8 +64,29 @@ bindkey '^e' edit-command-line
 # Load syntax highlighting; should be last.
 source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh 2>/dev/null
 
-source /usr/share/fzf/completion.zsh
-source /usr/share/fzf/key-bindings.zsh
+if [ -d /usr/share/fzf ]; then
+ . source /usr/share/fzf/completion.zsh
+ . source /usr/share/fzf/key-bindings.zsh
+fi
 
 source ~/.aliasrc
+
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/ulissemini/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/ulissemini/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/ulissemini/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/ulissemini/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
 
