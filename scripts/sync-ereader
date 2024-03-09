@@ -1,23 +1,23 @@
 #!/bin/sh
 set -e
 
-if ! mountpoint -q /mnt/ereader; then
-  mount-ereader
+# if ! mountpoint -q /mnt/ereader; then
+#   mount-ereader
 
-  if ! [ -d /mnt/ereader/books ]; then
-    echo "'books' folder not found at /mnt/ereader/books, is $device not the ereader?"
-    exit 1
-  fi
-fi
+#   if ! [ -d /mnt/ereader/books ]; then
+#     echo "'books' folder not found at /mnt/ereader/books, is $device not the ereader?"
+#     exit 1
+#   fi
+# fi
 
 # sync ~/books -> /mnt/ereader/books (the --exclude '.*' is no longer needed, but I leave it for safety)
 # TODO: only update needed (rsync still has to check stuff. store an index?)
 if [ "$1" = "all" ]; then
-  sudo rsync -P -rltD --delete --exclude scripts --exclude ".*" --exclude "Digital Editions" ~/books /mnt/ereader
+  rsync -P -rltD --delete --exclude scripts --exclude ".*" --exclude "Digital Editions" ~/books /Volumes/KOBOeReader
 else
   # only recent; last 24 hrs
   cd ~/books
-  find . -type f -mtime -1 -print0 | sudo rsync -iv --files-from - --from0 . /mnt/ereader/books
+  find . -type f -mtime -1 -print0 | rsync -iv --files-from - --from0 . /Volumes/KOBOeReader
 fi
 
 # sudo umount /mnt/ereader
