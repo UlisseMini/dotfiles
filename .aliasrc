@@ -2,7 +2,7 @@
 alias p="sudo pacman"
 alias yt="youtube-dl --add-metadata -ic" # Download video link
 alias yta="yt -x -f bestaudio/best"      # Download only audio
-alias v="$EDITOR"
+alias v='$EDITOR'
 alias rm="rm -i"
 
 alias g="git"
