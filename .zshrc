@@ -64,10 +64,8 @@ bindkey '^e' edit-command-line
 # Load syntax highlighting; should be last.
 source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh 2>/dev/null
 
-if [ -d /usr/share/fzf ]; then
- . source /usr/share/fzf/completion.zsh
- . source /usr/share/fzf/key-bindings.zsh
-fi
+. /opt/homebrew/Cellar/fzf/*/shell/key-bindings.zsh
+. /opt/homebrew/Cellar/fzf/*/shell/completion.zsh
 
 source ~/.aliasrc
 
